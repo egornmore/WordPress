@@ -8,6 +8,8 @@ if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 		// Add support for block styles.
 		add_theme_support( 'wp-block-styles' );
 
+		add_editor_style('style.css');
+
 	}
 
 endif;
